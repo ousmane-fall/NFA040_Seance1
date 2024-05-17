@@ -31,6 +31,6 @@ jobs:
               rsync -r ./$last_directory/ ./www
               rm -rf ./$last_directory
             else
-              echo "Les répertoires flask de destination sur votre serveur n'existe pas"
+              echo "Le répertoire flask de destination sur votre serveur n'existe pas"
               exit 1
             fi 
